@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.env
+*.zip
+*.csi.jsonl
+*.csi.meta.json
+data/
+models/
