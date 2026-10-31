@@ -1,6 +1,9 @@
 # Group 5 Wi-Fi 房間感知實驗
-
-本項目研究利用 ESP32 無線訊號和開源 RuView 探索非視覺人體感知，目標是觀察房間活動狀態。成員：王子源、陳洛駿、馮曉琛。
+這是基於開源 RuView 的 Wi-Fi 房間感知實驗，對象是希望了解房間活動狀態的家人。
+怎麼跑：啟動上游 sensing-server，在本倉庫執行 `python -m http.server 8099`，開啟 `src/node_monitor.html` 或 `src/wiflow_browser.html`；詳見下方。
+技術：ESP32 CSI、MediaPipe Pose、TensorFlow.js；需要已配置的硬件和資料。
+分工：王子源開發及隊長、陳洛駿文件與壁報、馮曉琛發表與展位。
+現況：已整理節點監視和 WiFlow 介面；本次實機與模型推論尚未驗證，節點監視器沒有靜止提醒。
 
 ## 如何運行
 
